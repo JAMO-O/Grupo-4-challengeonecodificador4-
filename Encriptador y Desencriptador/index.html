@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="Author" content="Juan MArquez">
+        
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+        
+        <title>Encriptador - Desencriptador</title>
+        <link rel="icon" href="img/iconop.png">
+    </head>
+
+    <body>
+        <div class="main-container">
+            
+            <div class="input-container">
+                
+                <header>
+                    <div class="cabecera">
+                        <img src="img/alura.png" alt="Alura Logo" />
+                        <h1>Encriptador de texto</h1>
+                    </div>
+                </header>
+
+                <main>
+                    <textarea placeholder="Ingresa el texto aquí" name="input"></textarea>
+                    <p><img src="img/signo.png" /> Sólo letras minúsculas, sin acentos.</p>
+                    
+                    <div class="button-container">
+                        <button id="encrypt">Encriptar</button>
+                        <button id="decrypt">Desencriptar</button>
+                    </div>
+                </main>
+
+            </div>
+
+            <div class="output-container">
+                <img src="img/dibujo.png" alt="Searching for a text" />
+                <textarea class="hidden" placeholder="Ingresa el texto aquí" name="input"></textarea>
+                <h2>Ningún mensaje fue encontrado</h2>
+                <button id="copy" class="hidden">Copiar</button>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+
+        </div>
+
+        <footer>
+            <div>
+                <h2>Challenge - Decodificador</h2>
+                <p class="pie">&copy;Enero 2023, Cd. Mexico, Juan A. Marquez O. ✰</p>
+            </div>
+        </footer>
+
+        <script defer src="script.js"></script>
+        
+    </body>
+
+</html>
